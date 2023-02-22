@@ -1,8 +1,10 @@
 import React from "react";
-import { Text } from "react-native";
+import { SafeAreaView, Text } from "react-native";
 
 function App() {
-  return <Text> Alura </Text>
+  return <SafeAreaView>
+      <Text> Alura </Text>
+    </SafeAreaView>
 }
 
 export default App;
